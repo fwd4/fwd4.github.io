@@ -20,7 +20,7 @@ categories: Miscellany
 - Nvidia Geforce Titan X
 
 
-# What I built:
+# What I get:
 ---
 - Tensorflow 0.9rc from source code
 - GPU support enabled
