@@ -233,6 +233,18 @@ Add three lines after around line 52:
    linker_flag: "-B/usr/bin/"
 ~~~
 
+For those experiencing mysterious oriental GFW forces, replace one of the git repositories in `tensorflow\workspace.bzl` around line 146:
+
+~~~diff
+  native.new_git_repository(
+    name = "boringssl_git",
+    commit = "e72df93461c6d9d2b5698f10e16d3ab82f5adde3",
+-   remote = "https://boringssl.googlesource.com/boringssl",
++   remote = "https://github.com/google/boringssl.git"
+    build_file = path_prefix + "boringssl.BUILD",
+  )
+~~~
+
 # Now Try Tensorflow
 
 ~~~
