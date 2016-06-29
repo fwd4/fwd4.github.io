@@ -10,7 +10,7 @@ named **DSSM** (Deep Structured Semantic Models) for matching web search
 queries and url based documents. The paper describing the model is published on CIKM'13 and available [here](https://posenhuang.github.io/papers/cikm2013_DSSM_fullversion.pdf). 
 
 ## DSSM model structure
-{% figure dssm png 'Illustration of the DSSM.' %}
+!(Illustration of the DSSM)[https://raw.githubusercontent.com/v-liaha/v-liaha.github.io/master/assets/dssm.png]
 
 ### Model Input
 The input of DSSM model are queries and documents mapped on so-called *n-gram* spaces instead of traditional word spaces. N-grams are defined as a sequence of n letters. A word, for example 'good', is firsted attached with hashtags on both sides to '#good#'. Then it is mapped into a list of 3-grams or trigrams: (*#go, goo, ood, od#*). As the number of characters are limited, the number of possible n-grams are limited as well, which is much smaller compared to number of words available. Typically as shown in Figure 1, the term vector with 500K words can be mapped to n-gram vectors sized only aroudn 30K. 
@@ -152,4 +152,4 @@ That's it! The code structure is very clear and we don't even need to compose th
 
 We have worked some tricks to change the model a little bit, and one of the advantages of tensorflow is that it provides a visualization called tensorboard to visualize the network you created. I may provide more information on it, but now I'm just providing the visualization of our DSSM network structure:
 
-{% figure dssm-tensorboard png 'Tensorboard Visualization'%}
+!(Tensorboard Visualization)[https://raw.githubusercontent.com/v-liaha/v-liaha.github.io/master/assets/dssm-tensorboard.png]
