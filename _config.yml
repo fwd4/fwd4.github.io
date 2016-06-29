@@ -13,13 +13,21 @@ description: 我们不生产Tensor,我们只是大自然的搬运工
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+# twitter_username: jekyllrb
+github_username:  v-liaha
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: rouge
 
 kramdown:
   input: GFM
 
+redcarpet:
+  extensions: ["no_intra_emphasis", "tables", "autolink", "strikethrough", "with_toc_data"]
+
+gems: [jekyll_figure]
+
+figures:
+  dir: /assets
+  enumerate: true
