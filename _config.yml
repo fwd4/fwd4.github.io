@@ -14,7 +14,7 @@ description: 我们不生产Tensor,我们只是大自然的搬运工
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  v-liaha
+github_username:  liaha
 
 # Build settings
 markdown: redcarpet
