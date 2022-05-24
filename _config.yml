@@ -33,4 +33,4 @@ figures:
   dir: /assets
   enumerate: true
 
-theme: jekyll-theme-slate
+theme: jekyll-theme-cayman
