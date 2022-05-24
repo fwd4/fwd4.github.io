@@ -32,3 +32,5 @@ plugins:
 figures:
   dir: /assets
   enumerate: true
+
+theme: jekyll-theme-cayman
