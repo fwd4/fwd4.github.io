@@ -2,7 +2,7 @@
 layout: post
 title:  "Model DSSM on Tensorflow"
 date:   2016-06-21 15:20:52 +0800
-categories: Models
+categories: [AI, Tensorflow, Models]
 ---
 
 Now with tensorflow installed, we now try to implement our first model on tensorflow. Instead of famous neural networks like LeNet, AlexNet, GoogleNet or ResNet, we choose a very simple but powerful model named

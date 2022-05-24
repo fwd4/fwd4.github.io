@@ -2,9 +2,8 @@
 layout: post
 title:  "Installation of Tensorflow"
 date:   2016-06-14 21:20:52 +0800
-categories: Miscellany
+categories: [AI, Tensorflow, Setup]
 ---
-
 
 # What I need:
 ---

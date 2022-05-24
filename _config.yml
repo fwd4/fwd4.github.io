@@ -6,15 +6,15 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: TensorFlow Technical Notes
+title: 前进四深海基地
 email: volease@gmail.com
-description: 我们不生产Tensor,我们只是大自然的搬运工
+description: 我们的归宿是星辰大海
 # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 # twitter_username: jekyllrb
-github_username:  liaha
+github_username:  fwd4
 
 # Build settings
 markdown: redcarpet
